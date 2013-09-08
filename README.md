@@ -9,6 +9,7 @@ It includes:
 Todo:
 
 - Litecoin pricetickers
+- Other litecoin tools
 
 ## Installation
 
@@ -38,3 +39,8 @@ p lt.getbalance # this outputs the balance
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+## Donations
+
+Litecoin address : LYxDu3HD3ha4nf37A4DGJ6558rSnkhsGm1
