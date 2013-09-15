@@ -29,7 +29,7 @@ Or install it yourself as:
 
 Example for the RPC:
 
-lt = LitecoinRpc.new('http://user:password@127.0.0.1:9332')
+lt = LitecoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
 
 ## Contributing
