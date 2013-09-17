@@ -5,11 +5,11 @@ Tools for litecoin.
 It includes:
 
 - Litecoin RPC
+- Litecoin pricetickers
 
 Todo:
 
-- Litecoin pricetickers
-- Other litecoin tools
+- Other userfull litecoin tools, ideas?
 
 ## Installation
 
@@ -32,6 +32,12 @@ Example for the RPC:
 lt = LitecoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
 
+Example for a BTCe Priceticker:
+
+LitecoinTickers::BTCe.ltcusd
+
+This returns a hash that contains info about the ltc value in usd on BTC-e
+
 ## Contributing
 
 1. Fork it
@@ -40,6 +46,7 @@ p lt.getbalance # this outputs the balance
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+If someone has some suggestions for this gem let me know.
 
 ## Donations
 
