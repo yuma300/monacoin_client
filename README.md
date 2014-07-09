@@ -1,29 +1,19 @@
-# LitecoinTools
+# MonacoinClient
 
-Tools for litecoin.
+client for monacoin.
 
 It includes:
 
-- Litecoin RPC
-- Litecoin pricetickers
+- Monacoin RPC
 
 Todo:
 
-- Other userfull litecoin tools, ideas?
+- Other userfull monacoin tools, ideas?
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'litecoin_tools'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install litecoin_tools
+    $ rake build
+    $ gem install pkg/litecoin_tools-X.X.X.gem
 
 ## Usage
 
@@ -50,4 +40,4 @@ If someone has some suggestions for this gem let me know.
 
 ## Donations
 
-Litecoin address : LYxDu3HD3ha4nf37A4DGJ6558rSnkhsGm1
+Monacoin address : MMhwb8rehZt2iFH87USvJmi6WHKLPfSdS2
