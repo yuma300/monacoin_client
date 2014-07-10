@@ -13,18 +13,19 @@ Todo:
 ## Installation
 
     $ rake build
-    $ gem install pkg/litecoin_tools-X.X.X.gem
+    $ gem install pkg/monacoin_tools-X.X.X.gem
 
 ## Usage
 
 Example for the RPC:
 
-lt = LitecoinRPC.new('http://user:password@127.0.0.1:9332')
+require 'monacoin_client'
+lt = MonacoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
 
 Example for a BTCe Priceticker:
 
-LitecoinTickers::BTCe.ltcusd
+MonacoinTickers::BTCe.ltcusd
 
 This returns a hash that contains info about the ltc value in usd on BTC-e
 

@@ -4,12 +4,12 @@ require 'json'
 require 'openssl'
 
 # included pricetickers
-require_relative 'litecoin_tickers/btce'
-require_relative 'litecoin_tickers/bter'
-require_relative 'litecoin_tickers/vircurex'
+require_relative 'monacoin_tickers/btce'
+require_relative 'monacoin_tickers/bter'
+require_relative 'monacoin_tickers/vircurex'
 
 # This module contains the price tickers
-module LitecoinTickers
+module MonacoinTickers
 	def getJsonObject(url)
 		uri = URI.parse(url)
 		http = Net::HTTP.new(uri.host, uri.port)
