@@ -19,9 +19,13 @@ Todo:
 
 Example for the RPC:
 
+```
 require 'monacoin_client'
+
 lt = MonacoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
+```
+
 
 Example for a BTCe Priceticker:
 
