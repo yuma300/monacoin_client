@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'litecoin_tools/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "litecoin_tools"
+  spec.name          = "monacoin_client"
   spec.version       = LitecoinTools::VERSION
-  spec.authors       = ["Bart Koopmans"]
-  spec.email         = ["barthoz.bk@gmail.com"]
-  spec.description   = %q{Litecoin tools for ruby}
-  spec.summary       = %q{This gem provides litecoin tools}
+  spec.authors       = ["Yuma Wakimoto"]
+  spec.email         = ["ywakimoto2s@gmail.com"]
+  spec.description   = %q{Monacoin client for ruby}
+  spec.summary       = %q{This gem provides monacoin client}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  spec.homepage       = 'https://github.com/barthoz/litecoin_tools' 
+  spec.homepage       = 'https://github.com/yuma300/monacoin_client' 
 end
