@@ -17,7 +17,7 @@ Todo:
 or
 
     $ rake build
-    $ gem install pkg/monacoin_tools-X.X.X.gem
+    $ gem install pkg/monacoin_client-X.X.X.gem
 
 ## Usage
 
