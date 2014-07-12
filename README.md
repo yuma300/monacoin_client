@@ -12,6 +12,10 @@ Todo:
 
 ## Installation
 
+    $ gem install monacoin_client
+
+or
+
     $ rake build
     $ gem install pkg/monacoin_tools-X.X.X.gem
 
@@ -24,14 +28,6 @@ require 'monacoin_client'
 
 lt = MonacoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
-```
-
-
-Example for a BTCe Priceticker:
-
-MonacoinTickers::BTCe.ltcusd
-
-This returns a hash that contains info about the ltc value in usd on BTC-e
 
 ## Contributing
 
@@ -40,6 +36,8 @@ This returns a hash that contains info about the ltc value in usd on BTC-e
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+Please join our community. https://www.facebook.com/groups/849211301755891/
 
 If someone has some suggestions for this gem let me know.
 
