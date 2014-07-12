@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'litecoin_tools/version'
+require 'monacoin_client/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "monacoin_client"
-  spec.version       = LitecoinTools::VERSION
+  spec.version       = MonacoinClient::VERSION
   spec.authors       = ["Yuma Wakimoto"]
   spec.email         = ["ywakimoto2s@gmail.com"]
   spec.description   = %q{Monacoin client for ruby}
