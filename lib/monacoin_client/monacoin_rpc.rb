@@ -21,7 +21,9 @@ class MonacoinRPC
     request.basic_auth @uri.user, @uri.password
     request.content_type = 'application/json'
     request.body = post_body
-    http.request(request).body
+    ret = http.request(request).body
+    http.finish
+    return ret
   end
  
   class JSONRPCError < RuntimeError; end
