@@ -2,7 +2,7 @@ module MonacoinTickers
 	# Priceticker on etwings
 	module Etwings
 		def ticker
-			json = MonacoinTickers::getJsonObject("https://btc-e.com/api/2/ltc_usd/ticker")
+			json = MonacoinTickers::getJsonObject("https://exchange.etwings.com/api/1/ticker/mona_jpy")
 		end
 		module_function :ticker
 	end
