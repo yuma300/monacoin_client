@@ -30,6 +30,14 @@ lt = MonacoinRPC.new('http://user:password@127.0.0.1:9332')
 p lt.getbalance # this outputs the balance
 ```
 
+Example for Ticker from etwings
+
+```
+require 'monacoin_client'
+
+p MonacoinTickers::Etwings.ticker
+```
+
 ## Contributing
 
 1. Fork it
