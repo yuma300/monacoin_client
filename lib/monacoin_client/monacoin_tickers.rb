@@ -5,6 +5,7 @@ require 'openssl'
 
 # included pricetickers
 require_relative 'monacoin_tickers/etwings'
+require_relative 'monacoin_tickers/monatr'
 
 # This module contains the price tickers
 module MonacoinTickers

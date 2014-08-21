@@ -38,6 +38,13 @@ require 'monacoin_client'
 p MonacoinTickers::Etwings.ticker
 ```
 
+Example for Ticker from monatr
+
+```
+require 'monacoin_client'
+
+p MonacoinTickers::Monatr.ticker("BTC_MONA")
+`
 ## Contributing
 
 1. Fork it
